@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="VideoConferencingWebsite.css">
+
+    <title>Video Conferencing</title>
+</head>
+
+<body>
+    <div class="menu"><i class="fa-solid fa-bars"></i></div>
+
+    <!-- navbar starts here -->
+    <div id="navbar">
+        <div class="navbar-brand">Webex</div>
+        <div class="nav">
+            <ul>
+                <li><a href="cc.html">Home</a></li>
+                <li><a href="service.html">Our Services</a></li>
+                <li><a href="Promise.html">Our Promises</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- navbar ends here -->
+
+    <div class="screen">
+
+        <h1 class="text-gradient">Webex</h1>
+        <h2 id="conf"> Free Video Conferencing Website<br><br>
+            <h2 id="free">Free Browser based <br> Real-time Video Calls.<br>Simple,Safe and Fast.</h2>
+            <h2> Let's Meet & Connect Virtually!</h2><br><br>
+
+
+            <div id="video-container">
+                <video id="localVideo" autoplay muted></video>
+                <button id="fullscreen-btn"><b>Full Screen</b></button>
+                <button id="pip-btn"><b>Picture-in-Picture</b></button>
+                <button id="screenshare-btn"><b>Screen-Sharing</b></button>
+                <button id="schedule-btn"><b>Schedule a Meeting</b></button>
+
+
+            </div>
+            <div class="button-box">
+                <a id="start-call-btn" type="button">Start Call</a><br>
+                <a id="end-call-btn" type="button">End Call</a>
+            </div>
+    </div>
+
+
+    <script src="VideoConferencingWebsite.js"></script>
+</body>
+
+</html>
